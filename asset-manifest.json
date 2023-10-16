@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/shivamchaudhary-r/shopkart-react-assignment/static/css/main.6307574c.css",
-    "main.js": "/shivamchaudhary-r/shopkart-react-assignment/static/js/main.ffebc1a4.js",
-    "static/media/jessica-radanavong-IchPBHFD0pw-unsplash.png": "/shivamchaudhary-r/shopkart-react-assignment/static/media/jessica-radanavong-IchPBHFD0pw-unsplash.86f96102434e2ad91064.png",
-    "static/media/jessica-radanavong-IchPBHFD0pw-unsplash_mobile.png": "/shivamchaudhary-r/shopkart-react-assignment/static/media/jessica-radanavong-IchPBHFD0pw-unsplash_mobile.366f75f86ae16473eb25.png",
-    "static/media/Footer_Image.png": "/shivamchaudhary-r/shopkart-react-assignment/static/media/Footer_Image.c97d0b196854132fb8d2.png",
-    "static/media/Truck.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/Truck.c104aa498bbfd55b34c7fba8fa5dad69.svg",
-    "static/media/BigStarIcon.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/BigStarIcon.7bde80480be913a2f69703bd46506d10.svg",
-    "index.html": "/shivamchaudhary-r/shopkart-react-assignment/index.html",
-    "static/media/ArrowIcon.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/ArrowIcon.7d34296963736939aa05bfb672bfcd3d.svg",
-    "static/media/Hamburger.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/Hamburger.b8e5264f525d8827e3b8a27bd6e99b2d.svg",
-    "static/media/link_icon.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/link_icon.0c33df2e0194bb51dd7683229ad9bb79.svg",
-    "static/media/StarIcon.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/StarIcon.49e65cf1485b91651789350feec3d7cd.svg",
-    "static/media/star_4.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/star_4.b38fa40ac2049ca1458dd1e2aca6b0cd.svg",
-    "static/media/closeButtonIcon.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/closeButtonIcon.a7109e506f07454354164159c16a9cfa.svg",
-    "static/media/Arrow_1.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/Arrow_1.31f5e219538fd6dfa2f72cd3a3190aac.svg",
-    "static/media/StarIcon_black.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/StarIcon_black.1aae84a6ca393c4bcdb5.svg",
-    "static/media/Arrow_2.svg": "/shivamchaudhary-r/shopkart-react-assignment/static/media/Arrow_2.17ff234674af042b6dbe9f022f512b47.svg",
-    "main.6307574c.css.map": "/shivamchaudhary-r/shopkart-react-assignment/static/css/main.6307574c.css.map",
-    "main.ffebc1a4.js.map": "/shivamchaudhary-r/shopkart-react-assignment/static/js/main.ffebc1a4.js.map"
+    "main.css": "/shopkart-react-assignment/static/css/main.a718b8a4.css",
+    "main.js": "/shopkart-react-assignment/static/js/main.4c355398.js",
+    "static/media/jessica-radanavong-IchPBHFD0pw-unsplash.png": "/shopkart-react-assignment/static/media/jessica-radanavong-IchPBHFD0pw-unsplash.86f96102434e2ad91064.png",
+    "static/media/jessica-radanavong-IchPBHFD0pw-unsplash_mobile.png": "/shopkart-react-assignment/static/media/jessica-radanavong-IchPBHFD0pw-unsplash_mobile.366f75f86ae16473eb25.png",
+    "static/media/Footer_Image.png": "/shopkart-react-assignment/static/media/Footer_Image.c97d0b196854132fb8d2.png",
+    "static/media/Truck.svg": "/shopkart-react-assignment/static/media/Truck.c104aa498bbfd55b34c7fba8fa5dad69.svg",
+    "static/media/BigStarIcon.svg": "/shopkart-react-assignment/static/media/BigStarIcon.7bde80480be913a2f69703bd46506d10.svg",
+    "static/media/ArrowIcon.svg": "/shopkart-react-assignment/static/media/ArrowIcon.7d34296963736939aa05bfb672bfcd3d.svg",
+    "index.html": "/shopkart-react-assignment/index.html",
+    "static/media/Hamburger.svg": "/shopkart-react-assignment/static/media/Hamburger.b8e5264f525d8827e3b8a27bd6e99b2d.svg",
+    "static/media/link_icon.svg": "/shopkart-react-assignment/static/media/link_icon.0c33df2e0194bb51dd7683229ad9bb79.svg",
+    "static/media/StarIcon.svg": "/shopkart-react-assignment/static/media/StarIcon.49e65cf1485b91651789350feec3d7cd.svg",
+    "static/media/star_4.svg": "/shopkart-react-assignment/static/media/star_4.b38fa40ac2049ca1458dd1e2aca6b0cd.svg",
+    "static/media/closeButtonIcon.svg": "/shopkart-react-assignment/static/media/closeButtonIcon.a7109e506f07454354164159c16a9cfa.svg",
+    "static/media/Arrow_1.svg": "/shopkart-react-assignment/static/media/Arrow_1.31f5e219538fd6dfa2f72cd3a3190aac.svg",
+    "static/media/StarIcon_black.svg": "/shopkart-react-assignment/static/media/StarIcon_black.1aae84a6ca393c4bcdb5.svg",
+    "static/media/Arrow_2.svg": "/shopkart-react-assignment/static/media/Arrow_2.17ff234674af042b6dbe9f022f512b47.svg",
+    "main.a718b8a4.css.map": "/shopkart-react-assignment/static/css/main.a718b8a4.css.map",
+    "main.4c355398.js.map": "/shopkart-react-assignment/static/js/main.4c355398.js.map"
   },
   "entrypoints": [
-    "static/css/main.6307574c.css",
-    "static/js/main.ffebc1a4.js"
+    "static/css/main.a718b8a4.css",
+    "static/js/main.4c355398.js"
   ]
 }
