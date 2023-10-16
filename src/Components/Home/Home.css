@@ -1,0 +1,372 @@
+.home_container {
+    height: 100vh;
+    width: 100%;
+    background-color: #111111;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding-top: 15px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 999;
+}
+
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+}
+
+.starIcon {
+    position: absolute;
+    left: 420px;
+    bottom: -12px;
+    display: none;
+}
+
+.nav_top_left h1 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.nav_top_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav_top_right h3 {
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+}
+
+.nav_bottom {
+    margin-top: 12px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    justify-content: flex-start;
+    gap: 130px;
+    padding-left: 50px;
+    display: none;
+}
+
+.nav_bottom_items_child_inactive {
+    overflow: hidden;
+    height: 0%;
+    opacity: 0;
+}
+
+.nav_bottom_items_child_active {
+    overflow: hidden;
+    height: 100%;
+    opacity: 1;
+}
+
+.nav_bottom_items_heading {
+    cursor: pointer;
+}
+
+.nav_bottom_items_heading_active {
+    cursor: pointer;
+    text-underline-offset: 5px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+
+.sliding_navbar_child_inactive {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    z-index: 888;
+    transition: all .3s ease-in;
+    background-color: #111111;
+}
+
+.sliding_navbar_child_active {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    z-index: 888;
+    transition: all .3s ease-in;
+    background-color: #111111;
+}
+
+.sliding_navbar_child_items {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home_hero {
+    flex-grow: 1;
+    position: relative;
+}
+
+.home_content {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    font-family: "Syne", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    z-index: 10;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.home_content_left {
+    width: 100%;
+}
+
+.home_content_right {
+    display: none;
+}
+
+.home_content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    opacity: 1;
+    z-index: 10;
+}
+
+.home_content_left img {
+    position: absolute;
+    left: 40%;
+    bottom: -50px;
+    height: 81px;
+    width: 47px;
+}
+
+
+.home_content_left h1,
+p {
+    line-height: 50.08px;
+    margin: 0;
+    padding: 0;
+}
+
+.home_content_left p {
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fafafa;
+}
+
+.orange_bar {
+    position: absolute;
+    width: 100%;
+    height: 54%;
+    background-color: #f07e15;
+    bottom: 14%;
+    z-index: 8;
+    opacity: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.orange_bar_two {
+    position: absolute;
+    width: 100%;
+    height: 54%;
+    background-color: #f07e15;
+    bottom: 14%;
+    z-index: 5;
+}
+
+
+
+.person_image_mobile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    z-index: 7;
+}
+
+.person_image {
+    display: none;
+}
+
+.starBig_image {
+    position: absolute;
+    height: 50%;
+    right: -25%;
+    top: 0;
+}
+
+
+.button {
+    /* border: 1px solid white; */
+    width: 103px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    bottom: 5%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .nav_top {
+        padding-bottom: 0px;
+        align-items: flex-end;
+    }
+
+    .starIcon {
+        display: block;
+    }
+
+    .nav_top_left h1 {
+        font-size: 40px;
+    }
+
+    .nav_top_right h3 {
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 8px;
+    }
+
+    .nav_top_right img {
+        display: none;
+    }
+
+    .nav_bottom {
+        display: flex;
+    }
+
+    .person_image_mobile {
+        display: none;
+    }
+
+    .orange_bar {
+        width: 70%;
+        right: 0;
+    }
+
+    .orange_bar_two {
+        width: 70%;
+        right: 0;
+    }
+
+    .home_content {
+        font-size: 135px;
+        height: 60%;
+    }
+
+    .home_content::before {
+        width: 70%;
+    }
+
+    .home_content_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 100px;
+        width: 70%;
+    }
+
+    .home_content_left p {
+        padding-left: 260px;
+    }
+
+    .home_content_left img {
+        left: 68.5%;
+    }
+
+    .home_content_right {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 14px;
+        font-family: "Work Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: black;
+        padding-right: 20px;
+
+    }
+
+    .home_content_right p {
+        line-height: 17px;
+    }
+
+    .starBig_image {
+        height: 60%;
+        right: 60px;
+        top: 0;
+        z-index: 4;
+    }
+
+    .person_image {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 8%;
+        height: 100%;
+        z-index: 7;
+    }
+
+    .button {
+        bottom: 10%;
+        margin-left: 5%;
+    }
+}
